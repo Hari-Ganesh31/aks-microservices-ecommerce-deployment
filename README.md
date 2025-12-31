@@ -10,7 +10,7 @@ Traffic routing was managed using Azure Application Gateway Ingress Controller, 
 This project demonstrates production-like Kubernetes deployment, scaling, and management on Microsoft Azure.
 
 ## Architecture Diagram
-
+<img width="1536" height="1024" alt="Architecture-diagram" src="https://github.com/user-attachments/assets/5581012b-c5d5-4515-b264-a2967a50efe3" />
 
 ## 🛠 Technologies Used
 - ☁️ Microsoft Azure
