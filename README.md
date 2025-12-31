@@ -22,13 +22,17 @@ This project demonstrates production-like Kubernetes deployment, scaling, and ma
 - 🔧 kubectl, Helm CLI, Azure CLI
 
 ## 🎯 What I Implemented
-- Containerized multiple microservices using Docker
-- Created Kubernetes manifests and Helm charts
-- Deployed application on AKS cluster
-- Configured Azure Ingress Controller for routing
-- Implemented rolling updates and scaling
-- Troubleshot pod scheduling & resource issues
-- Worked with node pools and quotas
+✔ Understanding the microservices architecture  
+✔ Deploying the application to Azure Kubernetes Service (AKS)  
+✔ Creating an AKS cluster and node pools  
+✔ Installing and configuring Helm  
+✔ Deploying the chart to the cluster  
+✔ Configuring Azure ingress controller for external access  
+✔ Troubleshooting pending pods and CPU/VM quota issues  
+✔ Verifying application functionality
+
+This project demonstrates my hands-on experience working with AKS,
+Kubernetes deployments, Helm, and cloud infrastructure.
 
 ## 📚 What I Learned
 - Real-world Kubernetes deployment workflow
@@ -41,3 +45,16 @@ This project demonstrates production-like Kubernetes deployment, scaling, and ma
 - GitHub - https://github.com/Hari-Ganesh31
 - LinkedIn - www.linkedin.com/in/hariharan-ganesan0231
 - Email - hariharanganesan0231@gmail.com
+
+## 📝 Project Credits
+This project is based entirely on the open-source **Instana Robot Shop** application.
+All source code, Dockerfiles, Kubernetes manifests, and Helm charts were created and
+are fully owned by the original Instana Robot Shop authors.
+
+I do not claim any ownership of the application or its source code.
+This repository is created only for learning and demonstration purposes.
+Original project:
+
+## ⚖️ License Notice
+The application source code is not my original work. All rights belong to the
+original authors. My repository is intended only for educational and non-commercial use.
