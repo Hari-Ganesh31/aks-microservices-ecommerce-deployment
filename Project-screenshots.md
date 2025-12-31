@@ -20,7 +20,6 @@ This cluster acts as the control environment where Kubernetes manages worker nod
 
 ![node-pool](https://github.com/user-attachments/assets/8b76fd6c-90bb-4f90-8217-3e074ec3015b)
 
-
 After cluster creation, a node pool was configured. 
 This defines the virtual machines where pods run. 
 I ensured the correct vCPU capacity so that microservices could schedule without **Insufficient CPU** errors.
@@ -29,7 +28,7 @@ I ensured the correct vCPU capacity so that microservices could schedule without
 
 ## 3️⃣ Pods Running in Kubernetes
 
-![Pods Running](screenshots/pods-running.png)
+![rec-2](https://github.com/user-attachments/assets/3a3a00b1-b95b-4b16-84c4-3920419955a4)
 
 Here you can see multiple microservice pods in **Running** state.
 Each pod represents a container instance running part of the e-commerce application.
@@ -40,7 +39,7 @@ Earlier some pods were pending due to CPU limitations — those were resolved by
 
 ## 4️⃣ Kubernetes Services
 
-![Services](screenshots/services.png)
+![rec 5](https://github.com/user-attachments/assets/14a6869a-17c4-499c-867e-f295cae44eb1)
 
 Services were deployed automatically using Helm charts.
 They provide stable networking inside the cluster and expose internal/external endpoints.
@@ -49,16 +48,18 @@ They provide stable networking inside the cluster and expose internal/external e
 
 ## 5️⃣ Helm Chart Deployment
 
-![Helm List](screenshots/helm-list.png)
+![rec-1](https://github.com/user-attachments/assets/e196db62-d45c-4a73-a32e-863d979ab411)
 
 The application was deployed using Helm.
 Helm simplifies application deployment by packaging Kubernetes manifests into reusable charts.
 
 ---
 
-## 6️⃣ Ingress Controller Configuration
+## 6️⃣ Ingress Controller Configuration\
 
-![Ingress](screenshots/ingress.png)
+![rec-ing](https://github.com/user-attachments/assets/26ef2113-8426-4fec-b465-a160640b4684)
+
+![rec-ingress](https://github.com/user-attachments/assets/df48f655-5b6d-4855-a390-c1920371ba09)
 
 Azure Application Gateway Ingress Controller was used to route external traffic to services.
 It provides:
@@ -72,7 +73,11 @@ It provides:
 
 ## 7️⃣ Application Running in Browser
 
-![Application UI](screenshots/app-ui.png)
+![rec-7](https://github.com/user-attachments/assets/175ec3d1-3425-4725-9fa0-dc4592d356b7)
+
+![rec-8](https://github.com/user-attachments/assets/3dac5fd3-9e86-4d90-af03-456f07818cd8)
+
+![rec-10](https://github.com/user-attachments/assets/c16ae8d1-f1d8-4144-b8a1-94f65b6ed396)
 
 This screenshot shows the e-commerce application successfully accessible from a browser through the ingress endpoint.
 All backend microservices work together to serve this UI.
@@ -86,8 +91,3 @@ All backend microservices work together to serve this UI.
 - My focus was on **deployment & troubleshooting on AKS**
 
 ---
-
-## 🎬 Demo Video
-
-👉 Watch deployment demonstration video here:  
-`<paste your YouTube or Drive link here>`
